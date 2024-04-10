@@ -27,13 +27,13 @@ public class LoginFormInteraction {
       By emailFieldLoc = AppiumBy.accessibilityId("input-email");
       WebElement emailFieldEle = appiumDriver.findElement(emailFieldLoc);
       emailFieldEle.clear();
-      emailFieldEle.sendKeys("thinh@techsoft.com");
+      emailFieldEle.sendKeys("thinhtestlogin@techsoft.com");
 
       // Input password
 //      By passwordLoc = By.xpath("//android.widget.EditText[@content-desc=\"input-password\"]");
       By passwordLoc = AppiumBy.accessibilityId("input-password");
       WebElement passwordEle = appiumDriver.findElement(passwordLoc);
-      passwordEle.sendKeys("Technocom1$");
+      passwordEle.sendKeys("Technocom10$");
 
       // Click on Login Btn
       By loginBtnLoc = AppiumBy.accessibilityId("button-LOGIN");
